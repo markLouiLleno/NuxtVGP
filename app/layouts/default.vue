@@ -1,4 +1,3 @@
-Set-Content -Path "app/layouts/default.vue" -Value @"
 <script setup lang="ts">
 const links = [
   { label: 'Home', to: '/' },
@@ -35,4 +34,3 @@ const links = [
   text-transform: none;
 }
 </style>
-"@
